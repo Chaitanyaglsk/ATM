@@ -138,7 +138,5 @@ class ATM:
                 break
             else:
                 print("अमान्य विकल्प।" if self.language == "Hindi" else "Invalid option. Try again.")
-
-# --- Start the ATM ---
 atm = ATM(pin="1234", balance=10000)
 atm.run()
